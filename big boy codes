@@ -1,0 +1,43 @@
+name = 'Bubby'
+
+message = f'{name} can we play today if you can'
+
+print(message)
+
+print('these are my best food \n '
+'1. Rice \n'
+'2. Bread and butter \n'
+'3. Pasta \n'
+'4. Plantain chips')
+
+print('these are most of my feelings\n '
+'1. Funny \n'
+'2. Kind \n'
+'3.Playful \n'
+'4.Pro \n'
+'5.Calm \n'
+'6.Angry \n'
+'7.Strong \n'
+'8.Tryhard \n'
+'9.Sweaty \n'
+'10.Hungry')
+
+print('these are the things I have in my house'
+'1.A laptop\n '
+'2.A xbox one \n'
+'3.A moniter \n'
+'4.A book \n'
+'5.A chair \n'
+'6.A gaming mouse \n'
+'7.A tv \n'
+'8.A garden \n'
+'9.Another tv \n'
+'10.A family picture')
+
+print()
+
+
+
+
+
+

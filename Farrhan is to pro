@@ -1,0 +1,9 @@
+numbers = list(range(1, 21))
+SqUaRs = []
+SqUaRs_numbers = []
+for each_num in numbers :
+    SqUaRs.append(each_num**2)
+
+    print(SqUaRs)
+
+
