@@ -15,7 +15,7 @@ while active:
         print(score)
     elif user_choice == 'Rok' and computer_choice == 'Scissors':
         print('You win')
-        score += 1
+        score += 1                                #open up Python
         print(score)
         print(f'Computer chooses {computer_choice}')
     elif user_choice == 'Paper' and computer_choice == 'Paper':

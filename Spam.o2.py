@@ -1,21 +1,22 @@
-numbers = list(range(1, 21))
-SqUaRs = []
-SqUaRs_numbers = []
-for each_num in numbers:
-    SqUaRs.append(each_num**2)
+<!DOCTYPE html>
+<html>
 
-    print(SqUaRs)
-Shoes = [each_number**2 for each_number in numbers]
-print(Shoes)
+<head>
+    <title>Testing DOM</title>
+</head>
 
+<body>
+    <h1>Testing Dom</h1>
+    <input id="getInput" type="text" placeholder="Enter Items">
+    <button id="getClick">Enter</button>
 
+    <ul>
+        <li>Philip</li>
+        <li>Matthew</li>
+        <li>Mark</li>
+        <li>Luke</li>
+    </ul>
+    <script type="text/javascript" src="script.js"></script>
+</body>
 
-numbers = list(range(5, 40))
-CuBe = []
-CuBe_numbers = []
-for each_num in numbers:
-    CuBe.append(each_num**3)
-print(CuBe)
-
-Habib = [each_number**3 for each_number in numbers]
-print(Habib)
+</html>
