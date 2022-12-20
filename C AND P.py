@@ -1,42 +1,39 @@
-key = 69
-name = 'Fon'
-score = 0
-
-username = input('Enter your super smug username here:')
-password = int(input('Enter your super smug password here:'))
-if username == name and password == key:
-    print('YoU cAn NoW tAkE tHe SmUg TeSt >:) ')
-elif username == name and password != key:
-    print('Username is correct but sadly key is incorrect')
-elif username != name and password == key:
-    print('Username is incorrect but fortunatley the  key is correct')
-else:
-    print('Your deatails are incorrect')
-if username == name and password == key:
-    print(f'Login Successful, \n Welcome {username}, You can take your good exam now')
-
-    question1 = input('What is one of the well know W W E ?: ')
-    answer = 'The Rock'
-    if question1 == answer:
-        print('Correct Answer')
-        score += 10
-        print(f'You have {score} points ')
+import random
 
 
+def checkFaCtOrS():   # 1
+    newList = []
+    numbers = range(1500, 2701)
+    for num in numbers:
+        if num % 7 == 0 and num % 5 == 0:
+            newList.append(num)
+    return (newList)
 
-        question2 = input('What is the best meme in the world?:')
-        answer = 'Rick Roll'
-        if question2 == answer:
-            print('Correct Answer')
-            score += 10
-            print(f'You have {score} points ')
+active = True # 3
+num = range(1, 10)
+while active:
+    computer = random.randrange(10)
+    user_input = int(input("Enter your number:"))
+    if user_input == computer:
+        print("Well Guessed")
+        active = False
+    else:
+        active = True
 
-            question3 = input('What is largest thing in the world that is still alive? ')
-            answer = ' Giant Antarctic Blue Whale'
-            if question3 == answer:
-                print('Correct Answer')
-                score += 10
-                print(f'You have {score} points ')
-FinalScore = 30
-print(f'This is the end of the quiz/exam \n {username.title()} '
-      f'you have a total of {FinalScore} you got a A+ well done')
+
+def stringReverse(word):  # 4
+    print(word[::-1])
+
+
+stringReverse('Farrhan')
+stringReverse('Fareed')
+
+def checkDiGiTs():   # 1
+    newList = []
+    numbers = range(100, 401)
+    for num in numbers:
+        if num % 2 == 0 and num % 2 == 0:
+            newList.append(num)
+    return (newList)
+
+print(checkDiGiTs())
